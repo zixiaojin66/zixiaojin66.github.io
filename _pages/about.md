@@ -18,8 +18,8 @@ If you are interested in the research direction I am interested in and want to c
 
 Education
 ======
-![Editing a markdown file for a talk](/images/cug.png)
-
+![Editing a markdown file for a talk](/images/cug.png )
+<img src="/images/cug.png" width="50" height="50">
 [<font size=5>China University of Geosciences, Wuhan, School of Computer Science</font>](https://cs.cug.edu.cn/)<br />
 September 2020 - June 2024<br />
 B.S. in Intelligent Science and Technology
