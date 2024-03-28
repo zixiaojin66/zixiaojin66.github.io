@@ -19,6 +19,7 @@ If you are interested in the research direction I am interested in and want to c
 Education
 ======
 <img src="/images/cug.png" width="100" height="100">
+
 [<font size=5>China University of Geosciences, Wuhan, School of Computer Science</font>](https://cs.cug.edu.cn/)<br />
 September 2020 - June 2024<br />
 B.S. in Intelligent Science and Technology
