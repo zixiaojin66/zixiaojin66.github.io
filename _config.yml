@@ -21,7 +21,7 @@ repository               : "zinxiaojin66/zinxiaojin66.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/images/jzx.png"
+  avatar           : "./images/jzx.png"
   name             : "Zixiao Jin (金子潇)"
   pronouns         : # example: "she/her"  
   bio              : "元、亨、利、贞"
