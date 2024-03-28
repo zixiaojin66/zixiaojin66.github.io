@@ -46,6 +46,6 @@ Waiting for updated.
 
 Recent Publications
 ======
-<img align="left" src="/images/article_2.png" width="500" height="300">Jin Z, Wang M, Zheng X, et al. Drug side effects prediction via cross attention learning and feature aggregation[J]. Expert Systems with Applications, 2024, 248: 123346.
+<img align="left" src="/images/article_2.png" width="450" height="250"> <br /> Jin Z, Wang M, Zheng X, et al. Drug side effects prediction via cross attention learning and feature aggregation[J]. Expert Systems with Applications, 2024, 248: 123346.
 
 
