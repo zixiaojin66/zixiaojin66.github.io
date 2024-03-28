@@ -55,4 +55,4 @@ Recent Publications
 <br />
 <br />
 <br />
-<img align="left" src="/images/article_1.png" width="450" height="250"> <br />  (IF: 7.7, 中科院2区top) Jin, Z., Wang, M., Tang, C*., Zheng, X., Zhang, W., Sha, X., & An, S. Predicting miRNA-disease association via graph attention learning and multiplex adaptive modality fusion. Computers in Biology and Medicine, 169, 107904.
+<img align="left" src="/images/article_1.png" width="450" height="250"> (IF: 7.7, 中科院2区top) Jin, Z., Wang, M., Tang, C*., Zheng, X., Zhang, W., Sha, X., & An, S. Predicting miRNA-disease association via graph attention learning and multiplex adaptive modality fusion. Computers in Biology and Medicine, 169, 107904.
