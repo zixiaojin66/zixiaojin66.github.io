@@ -19,7 +19,7 @@ If you are interested in the research direction I am interested in and want to c
 Education
 ======
 ![Editing a markdown file for a talk](/images/cug.png)
-1. China University of Geosciences, Wuhan, School of Computer Science<br />
+1. <font size=5>**China University of Geosciences, Wuhan, School of Computer Science**</font> <br />
 September 2020 - June 2024<br />
 B.S. in Intelligent Science and Technology
 
