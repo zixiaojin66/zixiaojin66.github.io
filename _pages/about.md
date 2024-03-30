@@ -9,7 +9,7 @@ redirect_from:
 
 I am a senior student and will pursue postgraduate studies in China University of Geosciences, Wuhan. 
 
-I am studying under Professor Chang Tang and my current research interests include:
+I am studying under [Professor Tang](https://tangchang.net/) and my current research interests include:
 1. multi-modal learning and its application.
 2. graph neural network and its application.
 3. diffusion model and its application.
