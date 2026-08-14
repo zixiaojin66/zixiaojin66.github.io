@@ -1,64 +1,24 @@
 ---
-layout: archive
+layout: single
 title: "CV"
 permalink: /cv/
+body_class: "cv-page"
 author_profile: true
 redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+<p class="page-intro">My academic CV includes education and average scores, English qualification, publications, research experience, intellectual property, awards, and technical skills.</p>
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+<a class="btn btn--primary" href="/files/Zixiao_Jin_CV.pdf"><i class="fas fa-file-pdf" aria-hidden="true"></i> Download CV (PDF)</a>
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+<p class="document-meta">Last updated: August 2026</p>
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Quick Details
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+<div class="cv-highlight-grid">
+  <article><span>M.S.</span><h3>Computer Science and Technology</h3><p>CUG (Wuhan) &middot; Expected Jun. 2027<br>Average Score (100-point scale): <strong>87.72/100</strong></p></article>
+  <article><span>B.Eng.</span><h3>Intelligent Science and Technology</h3><p>CUG (Wuhan) &middot; Jun. 2024<br>Average Score (100-point scale): <strong>86.97/100</strong></p></article>
+  <article><span>English</span><h3>College English Test Band 6</h3><p>CET-6 score: <strong>448</strong></p></article>
+  <article><span>Research</span><h3>Multimodal Learning and Biomedical AI</h3><p>Representation learning, graph learning, and explainability and reasoning in MLLMs and VLMs.</p></article>
+</div>
