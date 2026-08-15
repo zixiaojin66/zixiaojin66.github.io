@@ -16,7 +16,24 @@ redirect_from:
       <p class="home-intro__eyebrow">M.S. Student in Computer Science and Technology</p>
       <h1>Zixiao Jin <span lang="zh">金子潇</span></h1>
       <p class="home-intro__affiliation">School of Computer Science &middot; China University of Geosciences (Wuhan)</p>
-      <p>I am currently pursuing an M.S. degree in Computer Science and Technology at the School of Computer Science, China University of Geosciences (Wuhan), under the supervision of <a href="https://sse.hust.edu.cn/info/1073/4546.htm">Prof. Chang Tang</a>, and expect to graduate in June 2027. Since May 2026, I have also been a research intern at EIT-iSPH Labs, Eastern Institute of Technology, Ningbo (EIT), where I work with <a href="https://faculty.eitech.edu.cn/elec/lj/main.htm">Prof. Jie Liang</a> on zero-shot skeleton-based action recognition. I received my B.Eng. degree in Intelligent Science and Technology from China University of Geosciences (Wuhan) in 2024. My research interests include multimodal representation learning, graph and hypergraph learning for biomedical data, and explainability and reasoning in multimodal large language models and vision-language models.</p>
+      <div class="home-intro__bio" aria-label="Academic biography">
+        <div class="home-intro__bio-item">
+          <span class="home-intro__bio-label">Current Study</span>
+          <p>I am currently pursuing an M.S. degree in Computer Science and Technology at the School of Computer Science, China University of Geosciences (Wuhan), under the supervision of <a href="https://sse.hust.edu.cn/info/1073/4546.htm">Prof. Chang Tang</a>, now with Huazhong University of Science and Technology (HUST), and expect to graduate in June 2027.</p>
+        </div>
+        <div class="home-intro__bio-item">
+          <span class="home-intro__bio-label">Research Internship</span>
+          <p>Since May 2026, I have also been a research intern at EIT-iSPH Labs, Eastern Institute of Technology, Ningbo (EIT), where I work with <a href="https://faculty.eitech.edu.cn/elec/lj/main.htm">Prof. Jie Liang</a> on zero-shot skeleton-based action recognition.</p>
+        </div>
+        <div class="home-intro__bio-item">
+          <span class="home-intro__bio-label">Education</span>
+          <p>I received my B.Eng. degree in Intelligent Science and Technology from China University of Geosciences (Wuhan) in 2024.</p>
+        </div>
+        <div class="home-intro__bio-item">
+          <span class="home-intro__bio-label">Research Focus</span>
+          <p>My research interests include multimodal representation learning, graph and hypergraph learning for biomedical data, and explainability and reasoning in multimodal large language models and vision-language models.</p>
+        </div>
+      </div>
       <nav class="profile-links" aria-label="Profile links">
         <a class="btn btn--primary" href="/files/Zixiao_Jin_CV.pdf"><i class="fas fa-file-pdf" aria-hidden="true"></i> CV</a>
         <a class="btn" href="https://scholar.google.com/citations?user=6DUzUZsAAAAJ"><i class="ai ai-google-scholar" aria-hidden="true"></i> Google Scholar</a>
