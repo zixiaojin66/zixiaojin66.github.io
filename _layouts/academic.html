@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="{{ site.locale | default: 'en-US' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace }}">
+  <meta name="theme-color" content="#0c6c69">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}">
+  <meta property="og:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ '/images/zixiao-jin.jpg' | absolute_url }}">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <link rel="icon" href="{{ '/images/favicon.ico' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}">
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
+  <script src="{{ '/assets/js/academic.js' | relative_url }}" defer></script>
+</head>
+<body class="{{ page.body_class }}">
+  <header class="site-header">
+    <div class="nav-shell">
+      <a class="brand" href="{{ '/' | relative_url }}" aria-label="Zixiao Jin home">
+        <span class="brand-mark" aria-hidden="true">ZJ</span>
+        <span>Zixiao Jin</span>
+      </a>
+      <button class="nav-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
+        <i data-lucide="menu" aria-hidden="true"></i>
+      </button>
+      <nav id="site-nav" class="nav-links" data-nav aria-label="Primary navigation">
+        <a href="{{ '/' | relative_url }}"{% if page.permalink == '/' %} aria-current="page"{% endif %}>Home</a>
+        <a href="{{ '/#research' | relative_url }}">Research</a>
+        <a href="{{ '/publications/' | relative_url }}"{% if page.permalink == '/publications/' %} aria-current="page"{% endif %}>Publications</a>
+        <a href="{{ '/#journey' | relative_url }}">Journey</a>
+        <a href="{{ '/cv/' | relative_url }}"{% if page.permalink == '/cv/' %} aria-current="page"{% endif %}>CV</a>
+        <a class="nav-external" href="https://scholar.google.com/citations?user=6DUzUZsAAAAJ" target="_blank" rel="noreferrer">
+          Scholar <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  {{ content }}
+
+  <footer class="footer">
+    <div class="page-shell footer-grid">
+      <p>&copy; <span data-year>{{ site.time | date: '%Y' }}</span> Zixiao Jin. Built for research, updated with care.</p>
+      <div class="footer-links">
+        <a href="https://github.com/zixiaojin66" target="_blank" rel="noreferrer"><i data-lucide="github" aria-hidden="true"></i> GitHub</a>
+        <a href="https://scholar.google.com/citations?user=6DUzUZsAAAAJ" target="_blank" rel="noreferrer"><i data-lucide="graduation-cap" aria-hidden="true"></i> Google Scholar</a>
+        <a href="mailto:jinzixiao123@cug.edu.cn"><i data-lucide="mail" aria-hidden="true"></i> Email</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
