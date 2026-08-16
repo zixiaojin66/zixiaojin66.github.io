@@ -8,6 +8,11 @@
 <meta name="msapplication-TileImage" content="{{ base_path }}/images/mstile-144x144.png?v=M44lzPylqQ">
 <meta name="msapplication-config" content="{{ base_path }}/images/browserconfig.xml?v=M44lzPylqQ">
 <meta name="theme-color" content="#0b6670">
+<link rel="preload" href="{{ base_path }}/assets/fonts/source-sans-3-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ base_path }}/assets/fonts/source-serif-4-latin-600.woff2" as="font" type="font/woff2" crossorigin>
+{% if page.body_class == "profile-home" or page.author_profile %}
+<link rel="preload" href="{{ base_path }}/assets/fonts/noto-serif-sc-name-500.woff2" as="font" type="font/woff2" crossorigin>
+{% endif %}
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
 <!-- end custom head snippets -->
