@@ -40,6 +40,42 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+@font-face {
+  font-family: "Source Sans 3";
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+  src: url("../fonts/source-sans-3-latin-variable.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Source Sans 3";
+  font-style: italic;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("../fonts/source-sans-3-latin-italic-variable.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Source Serif 4";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/source-serif-4-latin-600.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Noto Serif SC";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/noto-serif-sc-name-500.woff2") format("woff2");
+  unicode-range: U+5B50, U+6F47, U+91D1;
+}
+
 /* Academic profile visual system */
 :root {
   --profile-ink: #20282d;
@@ -67,6 +103,9 @@ body {
 
 .masthead__menu-item--lg a {
   color: var(--profile-accent);
+  font-family: $display-serif;
+  font-weight: 600;
+  font-optical-sizing: auto;
 }
 
 .page__content a {
@@ -110,21 +149,30 @@ body {
 .home-intro h1 {
   margin: 0 0 0.45rem;
   color: var(--profile-ink);
+  font-family: $display-serif;
   font-size: 2.5rem;
+  font-weight: 600;
+  font-optical-sizing: auto;
   line-height: 1.08;
   letter-spacing: 0;
 }
 
-.home-intro h1 span {
+.home-intro h1 span[lang^="zh"] {
   color: var(--profile-muted);
+  font-family: $chinese-display-serif;
   font-size: 1.35rem;
+  font-weight: 500;
+}
+
+.author__name [lang^="zh"] {
+  font-family: $chinese-display-serif;
   font-weight: 500;
 }
 
 .home-intro__affiliation {
   margin: 0 0 1rem;
   color: var(--profile-muted);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .home-intro__bio {
@@ -163,8 +211,8 @@ body {
 .home-intro__bio p {
   margin: 0;
   color: var(--profile-ink);
-  font-size: 0.92rem;
-  line-height: 1.55;
+  font-size: 0.94rem;
+  line-height: 1.62;
 }
 
 .profile-links {
@@ -237,8 +285,10 @@ body {
 
 .home-metrics dt {
   color: var(--profile-accent);
+  font-family: $display-serif;
   font-size: 1.7rem;
-  font-weight: 750;
+  font-weight: 600;
+  font-optical-sizing: auto;
   line-height: 1;
 }
 
@@ -258,8 +308,11 @@ body {
   padding: 0;
   border: 0;
   color: var(--profile-ink);
-  font-size: 1.35rem;
-  line-height: 1.25;
+  font-family: $display-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-optical-sizing: auto;
+  line-height: 1.2;
   letter-spacing: 0;
 }
 
@@ -447,6 +500,22 @@ body {
   line-height: 1.5;
 }
 
+@media screen and (min-width: 1024px) {
+  .sidebar .author__desktop {
+    display: grid;
+    grid-template-columns: 1rem minmax(0, 1fr);
+    align-items: start;
+    column-gap: 0.25rem;
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+
+  .sidebar .author__desktop .icon-pad-right {
+    margin-top: 0.2em;
+    padding-right: 0;
+  }
+}
+
 /* Publications and CV */
 body.publications-page .page,
 body.cv-page .page {
@@ -458,7 +527,21 @@ body.cv-page .page {
 .publications-page .page__title,
 .cv-page .page__title {
   color: var(--profile-ink);
-  font-size: 2rem;
+  font-family: $display-serif;
+  font-size: 2.15rem;
+  font-weight: 600;
+  font-optical-sizing: auto;
+  line-height: 1.08;
+  letter-spacing: 0;
+}
+
+.publications-page .page__content > h2,
+.cv-page .page__content > h2 {
+  font-family: $display-serif;
+  font-size: 1.35rem;
+  font-weight: 600;
+  font-optical-sizing: auto;
+  line-height: 1.2;
   letter-spacing: 0;
 }
 
@@ -580,7 +663,7 @@ body.cv-page .page {
     font-size: 2rem;
   }
 
-  .home-intro h1 span {
+  .home-intro h1 span[lang^="zh"] {
     display: block;
     margin-top: 0.25rem;
     font-size: 1rem;
