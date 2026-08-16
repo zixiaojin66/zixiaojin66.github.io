@@ -23,6 +23,8 @@ author:
   # Biographic information
   avatar           : "zixiao-jin.jpg"
   name             : "Zixiao Jin (金子潇)"
+  name_en          : "Zixiao Jin"
+  name_zh          : "金子潇"
   pronouns         : # example: "she/her"  
   bio              : "M.S. Student | Multimodal Learning & Biomedical AI"
   location         : "Wuhan, Hubei, China"
